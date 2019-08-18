@@ -2,8 +2,7 @@
 ###, {18/08/2019}
 
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
-{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.
+web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. .
 ## BEHAVIOR DRIVEN DEVELOPMENT
 ### Behavior Driven Development (Specifications)
 | Behavior                 |           Input      |                 Output     |
