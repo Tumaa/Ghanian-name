@@ -14,9 +14,12 @@
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="css/style.css" rel="stylesheet">
+  <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAkFBMVEXOESYAaz/80RYAAADKACf/2hUAYUH/1xFfTgj/1Bb/0xb/1hfHpRHZtBOmig7vxhW/nxCGbwvxyBUuJgTQrBJWRwfnvxRvXAk4LgV7ZgpBNgVIPAaQdww8MgVaSwgLCQGdgg1mVAgVEgEeGQKxkw8yKgQrIwMAaEKwmw2Aagu5mRAlHgOwkg8bFwL/4Bd0YAqPembLAAADwUlEQVR4nO3a21baQBSAYZo0jZmRUwgBBEUQbAVt3//tioRD0s1BXDp7Vv2/O11chH9NMpNhajUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIALffeFR1cS+eKX9gXs1AJPpGGqfQlbvjSxrbBltS9iw5smvbBHkwqT98N+brQvo+BJk+Q6DMPrRPsyCp40iSerJpNY+zIKnjRJwleMk5LVrPPKk5nHjyamvW7S9uMh60eTtLNu0vFj2eZFkyQLC5kXTxQvmsSDTZOBFzOPF03Sm02TGy9uHh+arBdsBS+WbT40se1dk7YPs7EPTaJwL9K+mMCLJrtZx5eZx4MmdlRqMvLg5vGgSTosNRl6MPPoN0nqYVld/+bRb1K5dby4edw1MfFBUXxbaXK7+s9B7t4PnTUx9au7q0O640qTcffgp+6u6s6iOBwnWfXLX2aa/YfjZPXgCJ7eneQpcPiYcfmMNcHifUNlvDAud5vczjs2H54vIAxzt3OR47k4Ce4vTnIfOF6yOF+f2Nb8oiJz9xvX7tdsNp1ckGSSul/DKaxjTdKYvrHItJEobOWrrO1tvfOmJJ26ykJf533HBu3zRcK2y0VJidI7oDGthzNFHlpOFyUlau/F55YqrhclJXp7BUnSOJGkkejto2jun9jr5ZEiy2vNXRTNJiZ/PNKko3pkSXWcLI7eOouvOk6i7tEmd5q/82g2SU88YzW37xWb2OcTTZ4Vbx7NcTI40WSgeF16TUzzRJJw3NSbefSabM71HaN43k+vSdSrRnio/tnTm3nUmpi8st/2Mvs9eyn/Y663bNN7B6zcOsM8CZLqW6HezaPWJP5T+v6j9TZ0EpR/OtY776c3Tvbf/jHbfv04K70BfblxYvfn+ialnRKb7zew1d6N1ZrsNh+r29DG7HZV1M77ae09NjezzlBsQ9v65lE711q2KTXZnusbNOVgsM3Nol/rvJ9Sk2LWeZlFh4aCiWZTzZlHqUnaX33n7oFBUrD569ZK3+kl7ek0WZ8mH534bbxYqiidNFf6zWsULrPTd0acLbXO++k0MWHv6H2zZZu9sc7EUzt8yPBzRXkjOnK6sfypqJGf/9QnqP1Q8fMDP/Xhat/wL5pINJFoItFEoolEE4kmEk0kmkg0kWgi0USiiUQTiSYSTSSaSDSRaCLRRKKJRBOJJhJNJJpINJFoItFEoolEE4kmEk0kmkg0kWgi0USiiUQTiSYSTSSaSDSRaCLRRKKJRBOJJhJNJJpINJFoItFEoolEE4kmEk0kmkg0kWgi/QXdLfOwe85wfgAAAABJRU5ErkJggg==" type="icon/image">
+
 </head>
 
 <body>
+  <h1>WELCOME TO AKHAN-NAMES</h1>
   <!-- Start your project here-->
   <!-- Card -->
 <div class="card mx-xl-12">
@@ -26,19 +29,27 @@
 
     <!-- Default form subscription -->
     <form>
-      <!-- Default input name -->
-      <label for="defaultFormCardNameEx" class="grey-text font-weight-light">Your birthday</label> <br>
-      <input type="date" name="bday"> 
-      <br>
+      
       <!-- Default input email -->
-      <label for="defaultFormCardNameEx" class="grey-text font-weight-light">CHOOSE GENDER</label> <br>
+    <H1>Enter your birthday</H1>
+
+      <input type="text" name="day" placeholder= "DD">
+
+      <input type="text" name="month " placeholder="MM"> 
+  
+      <input type="text" name="year" placeholder ="YY"> 
+      <br><br>
+
+
+
+      <p> Put your gender</p><br>
       <input type="radio" name="gender" value="male"> Male<br>
-      <input type="radio" name="gender" value="female"> Female<br> 
-      <div class="text-center py-4 mt-3">
-        <button class="btn btn-outline-purple" type="submit">Send<i
-            class="fa fa-paper-plane-o ml-2"></i></button>
-      </div>
-    </form>
+      <input type="radio" name="gender" value="female"> Female<i> 
+        <br>
+        <input type="button" id="btnSearch" value="Search" onclick="GetValue();" />
+      </form>
+    <p id="message" >ddd</p>
+
     <!-- Default form subscription -->
 
   </div>
@@ -57,6 +68,9 @@
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script src="js/scripts.js"></script>
+
 </body>
 
 </html>
+
