@@ -17,4 +17,9 @@ body{
 #message{
     padding-top: 10%;
     font-family: 'Anton', sans-serif;
+    color: white;
+ }
+ 
+ #gender{
+     padding-top: 10%;
  }
