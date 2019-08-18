@@ -43,8 +43,12 @@
 
 
       <p> Put your gender</p><br>
-      <input type="radio" name="gender" value="male"> Male<br>
-      <input type="radio" name="gender" value="female"> Female<i> 
+      <div>
+          <select>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+          </select><br>
+      </div>
         <br>
         <input type="button" id="btnSearch" value="Search" onclick="GetValue();" />
       </form>
