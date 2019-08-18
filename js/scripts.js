@@ -1,0 +1,6 @@
+function GetValue(){
+    var myarray= new Array("Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama");
+    var random = myarray[Math.floor(Math.random() * myarray.length)];
+   document.getElementById("message").innerHTML=random;
+}
+  
