@@ -1,10 +1,6 @@
-function GetValue(){
-        var male= document.getElementById('male').value);
-        var female= document.getElementById('female').value);
-
-
-    var myarray= new Array("Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama");
+function GetValue(female,male)
+{
+    var myarray= new Array("item1","item2","item3");
     var random = myarray[Math.floor(Math.random() * myarray.length)];
    document.getElementById("message").innerHTML=random;
 }
-  
