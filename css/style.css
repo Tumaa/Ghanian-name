@@ -17,9 +17,29 @@ body{
 #message{
     padding-top: 10%;
     font-family: 'Anton', sans-serif;
-    color: white;
  }
+
  
  #gender{
      padding-top: 10%;
+ }
+
+ .text-center{
+     height: 97vh;
+     padding-top: 15%;
+ }
+
+ #sect-2{
+    background-image: url('https://images.pexels.com/photos/6416/apple-desk-office-technology.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    padding-top: 15%;
+ }
+
+ .arrow{
+     width: 20px;
+     height: 25px;
+     margin-top: 20%;
  }
