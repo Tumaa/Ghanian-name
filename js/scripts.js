@@ -86,7 +86,7 @@ function result(){
 
     if (gender === "male"){
         for( var x in maleList){
-            if(maleList.hasOwnProperty(x)){
+            if(maleList.hasOwnProperty(x)){id="gender"
                 if(x === dayName){
                     alert("Congratulation, your Akan Name is " + maleList[x]);
                 }
