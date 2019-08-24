@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,38 +9,41 @@
 </head>
 
 <body>
-    
+
     <div class="frm">
         <form action="" id="myForm" class="form">
-                   <lable>Date of Birth:</lable> <br>
-                    <input type="number" id="d"  class="in" maxlength="2" placeholder="day" required>
-                    <div>
-                        <h4 id="one"></h4>
-                    </div>
-                    <lable>Month of Birth:</lable> <br>
-                    <input type="number" id="m"  class="in" maxlength="2" placeholder="month" required>
-                    <div>
-                        <h4 id="two"></h4>
-                    <lable>Year of Birth:</lable> <br>
-                    <input type="number" id="yy"  maxlength="4" class="in" placeholder="year" required>
-                    <div>
-                        <h4 id="three"></h4>
-                    </div>
-                        <h1>GENDER</h1>
-                    <div><h4 id="four"></h4></div>
-                    <lable>Male:
+            <lable>Date of Birth:</lable> <br>
+            <input type="number" id="d" class="in" maxlength="2" placeholder="day" required>
+            <div>
+                <h4 id="one"></h4>
+            </div>
+            <lable>Month of Birth:</lable> <br>
+            <input type="number" id="m" class="in" maxlength="2" placeholder="month" required>
+            <div>
+                <h4 id="two"></h4>
+                <lable>Year of Birth:</lable> <br>
+                <input type="number" id="yy" maxlength="4" class="in" placeholder="year" required>
+                <div>
+                    <h4 id="three"></h4>
+                </div>
+                <h1>GENDER</h1>
+                <div>
+                    <h4 id="four"></h4>
+                </div>
+                <lable>Male:
                     <input type="radio" class="g" name="gd" value="male" required></lable>
-                    <lable>Female:
-                 <input type="radio" class="g" name="gd" value="female" required></lable>            
+                <lable>Female:
+                    <input type="radio" class="g" name="gd" value="female" required></lable>
         </form>
-    <div class="sub">
-        <button type="button" sub-btn  onclick="execute()">Submit</button>
-    </div>
-    <div class="output">
-        <h1>My Akhan name is:<span id="ans"></span></h1>
+        <div class="sub">
+            <button type="button" sub-btn onclick="execute()">Submit</button>
+        </div>
+        <div class="output">
+            <h1>My Akhan name is:<span id="ans"></span></h1>
 
+        </div>
     </div>
-</div>
     <script type="text/javascript" src="scripts.js"></script>
 </body>
+
 </html>
