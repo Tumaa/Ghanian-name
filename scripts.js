@@ -35,4 +35,26 @@ function ClearFields() {
 }
 
 
-
+function validation() {
+    var date = document.getElementById("d").value;
+    
+    var month = document.getElementById("m").value;
+    var year = document.getElementById("yy").value;
+    var gen = document.getElementsByName("gd");
+    var currentDate = new Date();
+    var currentYear = currentDate.getFullYear();
+    if(isNaN(date) || date === null || date === "" || date < 1 || date > 31){
+       
+        document.getElementById('one').innerHTML = "invalid day";
+        document.getElementById('one').style.color = "red"
+        alert("invalid date");
+        return false;
+    }
+    var ListofDays = [31,28,31,30,31,30,31,31,30,31,30,31];
+    if(isNaN(month) || month=== "" || month ===null || month <1 || month>12){
+        document.getElementById('two').innerHTML = "invalid month";
+        document.getElementById('two').style.color = "red"
+        alert("invalid month");
+       return false;
+    }
+   
