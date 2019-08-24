@@ -1,0 +1,15 @@
+body{
+    background-image: url('https://images.pexels.com/photos/2653168/pexels-photo-2653168.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 97vh;
+    text-align: center;
+    font-size: 3vh;
+}
+input{
+    width: 55px;
+}
+.frm{
+    padding-top: 8%;
+}

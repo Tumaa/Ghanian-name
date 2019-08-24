@@ -20,21 +20,6 @@ var femaleNames = {
 };
 
 
-function ClearFields() {
-
-     document.getElementById("d").value = "";
-     document.getElementById("m").value = "";
-     document.getElementById("yy").value = "";
-     document.getElementsByName("gd").value = "";
-     
-     document.getElementById('one').style.display = "none";
-     document.getElementById('two').style.display = "none";
-     document.getElementById('three').style.display = "none";
-     document.getElementById('four').style.display = "none";
-     document.getElementById("ans").style.display = "none";
-}
-
-
 function validation() {
     var date = document.getElementById("d").value;
     
@@ -99,7 +84,6 @@ function validation() {
                 alert(gen[i].value);
                     var gend = gen[i].value;
          }
-                    //return gend;
                     var userInputs ={
                         userDate: date,
                         userMonth: month,
@@ -132,11 +116,8 @@ var y = newYear - a;
  
  var daysOfaweek = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday',       
          'Thursday', 'Friday', 'Saturday');
- 
 
 var realDay = daysOfaweek[dayOfTheWeek];
-
-
 if (newGender ==="male") {
 for (var name in maleNames) {
         if (maleNames.hasOwnProperty(name)) {
@@ -144,7 +125,7 @@ for (var name in maleNames) {
                 document.getElementById('ans').innerHTML = maleNames[name];
                 document.getElementById('three').style.backgroundColor = "black";
                 document.getElementById('three').style.color = "white";
-                alert("Your Akan name is "+maleNames[name]);
+                alert("You are "+maleNames[name]);
             }
         }
     }
@@ -156,7 +137,7 @@ for (var name in maleNames) {
                     document.getElementById('ans').innerHTML = femaleNames[name];
                     document.getElementById('three').style.backgroundColor = "black";
                 document.getElementById('three').style.color = "white";
-                    alert("Your Akan name is "+femaleNames[name]);
+                    alert("You are "+femaleNames[name]);
                 }
             }
         }
