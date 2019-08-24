@@ -1,4 +1,5 @@
 var maleList = {
+
     Sunday : "Kwasi",
     Monday : "Kwadwo",
     Tuesday : "Kwabena",
@@ -6,6 +7,7 @@ var maleList = {
     Thursday : "Yaw",
     Friday :"Kofi",
     Saturday : "Kwame"
+
 };
 
 var femyList = {
@@ -80,19 +82,18 @@ function result(){
      var d = (dd + y + Math.floor(y / 4) - Math.floor(y / 100) +
      Math.floor(yy / 400) + Math.floor((31 * m) / 12)) % 7;
      
-     return d;
-     var weekDays = new Array ["Sunday", "Monday", "Tuesday", "Wednesday","Thursday", "Friday", "Saturday"];
+var weekDays = new Array ["Sunday", "Monday", "Tuesday", "Wednesday","Thursday", "Friday", "Saturday"];
     var dayName = weekDays[d];
-
     if (gender === "male"){
         for( var x in maleList){
-            if(maleList.hasOwnProperty(x)){id="gender"
+            if(maleList.hasOwnProperty(x)){
                 if(x === dayName){
                     alert("Congratulation, your Akan Name is " + maleList[x]);
                 }
             }
         }
-    }else if (gender === "female"){
+    }
+    else if (gender === "female"){
         for( var x in femyList){
             if(femyList.hasOwnProperty(x)){
                 if(x === dayName){
@@ -102,12 +103,3 @@ function result(){
         }
     }
 }
-
-
-
-  
-
-
-
-
-
