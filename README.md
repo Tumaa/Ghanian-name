@@ -1,6 +1,4 @@
-### GHANIAN NAMES
- + {18/08/2019}
-
+### GHANIAN NAMES  18/08/2019}
 ## Description
 web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. .
 ## BEHAVIOR DRIVEN DEVELOPMENT
@@ -20,6 +18,4 @@ web application that takes a user's birthday and calculates the day of the week 
 + 0772328098
 + ramanfatuu@gmail.com
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
-  
++ MTI  license  
