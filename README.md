@@ -1,7 +1,7 @@
 ### GHANIAN NAMES 
 + 18/08/2019
 ## Description
-web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. .
+web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
 ## BEHAVIOR DRIVEN DEVELOPMENT
 ### Behavior Driven Development (Specifications)
 | Behavior                 |           Input      |                 Output     |
